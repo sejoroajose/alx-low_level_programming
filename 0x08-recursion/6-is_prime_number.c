@@ -1,7 +1,6 @@
 #include "main.h"
 
 int determine_prime_number(int n, int i);
-
 /**
  * is_prime_number -function that returns a prime number
  * @n: number to be checked
@@ -14,7 +13,6 @@ int is_prime_number(int n)
 		return (0);
 	return (determine_prime_number(n, n - 1));
 }
-
 /**
  * determine_prime_number - calculates if a number is prime recursively
  * @n: number to evaluate
